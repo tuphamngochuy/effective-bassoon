@@ -1,0 +1,32 @@
+.menuStation {
+    position: relative;
+}
+#menuContainter {
+    margin: 10PX 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40% 40%;
+}
+
+.menuCard {
+    margin: 5px 20px;
+}
+
+.menuImg {
+    height: 70%;
+}
+
+.menuImg img {
+    height: 100%;
+    width: 70%;
+}
+
+.menuImg:hover {
+    opacity: 0.8;
+    transition-duration: 500ms;
+}
+
+.menuText {
+    margin-top: 25px;
+}
+
